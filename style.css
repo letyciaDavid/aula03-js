@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+body{
+    color: rgb(0, 0, 0);
+    background-color: #3a0752;
+    font-family: "Playwrite DK Loopet", cursive;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+}
+.block{
+    border-radius: 30px;
+    background-color: rgb(207, 117, 248);
+    width: 500px;
+    height: 700px;
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.click{
+    color: white;
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Playwrite DK Loopet", cursive;
+    text-align: center;
+    background-color: #0a120f;
+    font-size: 20px;
+}
